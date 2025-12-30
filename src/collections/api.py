@@ -1,7 +1,7 @@
 # collection/api.py
-
 import requests
 from lake.writer import write_object_to_lake
+
 
 def fetch_api_data(url: str, params: dict, bucket_name: str, object_name: str):
     """

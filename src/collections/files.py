@@ -1,5 +1,4 @@
 # collection/files.py
-
 from lake.writer import write_object_to_lake
 
 def copy_local_file_to_lake(local_path: str, bucket_name: str, object_name: str):

@@ -1,5 +1,4 @@
 # collection/cdc.py
-
 import psycopg2
 from lake.writer import write_object_to_lake
 import pandas as pd
